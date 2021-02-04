@@ -12,5 +12,9 @@ struct Comment {
 }
 
 fn main() {
-
+  let comment: Comment = Comment {
+    author_name: String::from("RbertKo"),
+    author_email: String::from("myeongsku@gmail.com"),
+    context: String::from("test")
+  };
 }
